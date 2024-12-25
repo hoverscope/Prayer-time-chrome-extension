@@ -11,7 +11,8 @@
   <body>
     <div class="header">
       <div>
-        <h3 class="time">
+        <h3 class="time" id="current-time">
+          <!-- Time will be updated here -->
           12:45
           <svg
             class="icon"
@@ -37,8 +38,10 @@
           />
         </svg>
         <div class="date-text">
-          <p>23 JamadAlThani 1446</p>
-          <p>24 December 2024</p>
+          <!-- Hijri Date -->
+          <p id="hijri-date"></p>
+          <!-- Gregorian Date -->
+          <p id="current-date"></p>
         </div>
       </div>
     </div>
