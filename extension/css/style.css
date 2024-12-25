@@ -1,0 +1,107 @@
+body {
+  font-family: "Inter";
+  padding: 16px;
+  width: 350px;
+  height: 450px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+
+.header {
+  background: white;
+  margin: 0 0 16px 0;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Time display */
+h3.time {
+  font-size: 32px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #000;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #666;
+  margin-left: 8px;
+}
+
+h3.p_name {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 4px 0 0;
+  color: #666;
+}
+
+/* Date section */
+.date-container {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.left-icon {
+  width: 20px;
+  height: 20px;
+  fill: #666;
+}
+
+.date-text p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #666;
+}
+
+/* Prayer times section */
+.prayer-times {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 8px 0;
+}
+
+.prayer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.prayer-row:last-child {
+  border-bottom: none;
+}
+
+.prayer-name-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 32px);
+}
+
+.prayer-name-time span:first-child {
+  color: #666;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.prayer-name-time span:last-child {
+  color: #333;
+  font-size: 15px;
+}
+
+.prayer-icon {
+  width: 20px;
+  height: 20px;
+  stroke: #666;
+  opacity: 0.7;
+}
