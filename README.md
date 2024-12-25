@@ -1,4 +1,11 @@
-Prayer Time Chrome Extension 
-This project was done by using the open-source Aladhan API.
+# Prayer Time Chrome Extension 
 
-Currently in build phase 
+This is a chrome extnesion designed to show prayer times in your browser based on city and location. 
+## API Tool used
+ [AlAdhan API ](https://aladhan.com/) open source API.
+ Project currenlty in development.
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
