@@ -2,7 +2,7 @@
 
 This is a chrome extnesion designed to show prayer times in your browser based on city and location. 
 ## API Tool used
- [AlAdhan API ](https://aladhan.com/) open source API.
+ [Al Adhan ](https://aladhan.com/) open source API.
  Project currenlty in development.
 
 
