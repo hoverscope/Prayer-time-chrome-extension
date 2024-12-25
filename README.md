@@ -2,7 +2,7 @@
 
 This Chrome extension provides prayer times based on the user's city and location, helping you keep track of prayer timings directly in your browser. 🌙
 
-#NOTE: Project is in development and some festures are not yet available.
+# NOTE: Project is in development and some festures are not yet available.
 
 ## 🔧 API Tool Used
 I use the open-source [Al Adhan API](https://aladhan.com/) to fetch accurate prayer times.
